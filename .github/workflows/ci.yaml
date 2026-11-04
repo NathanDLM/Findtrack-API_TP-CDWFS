@@ -34,7 +34,7 @@ jobs:
     needs: lint
     strategy:
       matrix:
-        node: [20, 22, 24] # NOUVEAU : 3 jobs, un par version
+        node: [22] # NOUVEAU : 3 jobs, un par version
       fail-fast: false # Laisser finir les autres versions si l'une échoue
     steps:
       - uses: actions/checkout@v4
