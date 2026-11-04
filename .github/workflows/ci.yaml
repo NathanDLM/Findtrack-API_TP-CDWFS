@@ -1,4 +1,4 @@
-name: CI - FinTrack API
+name: CI - FinTrack API TP
 
 on:
   push:
